@@ -1,6 +1,0 @@
-{
-  "name": "NearCare",
-  "description": "Calculates and compares the best diagnostic centers based on proximity, test cost, ratings, and current wait times.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
