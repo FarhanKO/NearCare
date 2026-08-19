@@ -1,0 +1,55 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.env
+
+# Firebase config — project-identifying, keep out of public history
+google-services.json
+GoogleService-Info.plist
+.env.*
+!.env.example
+debug.keystore
+
+# --- Flutter / Dart ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+.metadata
+coverage/
+doc/api/
+*.log
+
+# IntelliJ / Android Studio (Flutter)
+*.iws
+.idea/
+
+# Flutter platform build artifacts (present after `flutter create .`)
+android/.gradle/
+android/local.properties
+android/key.properties
+**/Flutter/ephemeral/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+*.iOS.symbols
