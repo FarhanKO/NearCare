@@ -1,0 +1,31 @@
+name: diagnostic_finder
+description: A premium diagnostic center finder app using Google Maps and Places.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.0
+  google_maps_webservice: ^0.0.20+1
+  geolocator: ^10.1.0
+  provider: ^6.1.1
+  http: ^1.1.0
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.1
+  google_fonts: ^6.1.0
+  flutter_blurhash: ^0.8.2
+  animated_text_kit: ^4.2.2
+  image_picker: ^1.0.7
+  google_mlkit_text_recognition: ^0.13.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
